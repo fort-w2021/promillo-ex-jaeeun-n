@@ -1,0 +1,25 @@
+Package: promillo
+Title: Calculate Body Alcohol per Mille
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides the function 'tell_me_how_drunk' that 
+  calculates the body alcohol per mille based on Widmark's and Whatson's formula. 
+  The other function 'show_me_how_drunk' plots a hypothetic course of the blood 
+  alcohol.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: checkmate, 
+  foreach,
+  ggplot2
+
